@@ -220,9 +220,9 @@ export default function Home() {
         <div className="mx-auto flex max-w-screen-2xl flex-col items-center md:items-start gap-8 px-6 py-20 md:px-10 lg:gap-[60px] bg-amber-50">
           <div className="justify-left flex w-full max-w-lg flex-wrap gap-12 lg:gap-6 lg:max-w-none lg:items-end lg:justify-between">
             <h2 className="font-bold text-textPrimary leading-heading m-0 p-0 text-2xl md:text-3xl md:tracking-tight w-full max-w-lg tracking-tight lg:text-5xl">
-              Got questions?
+              {`Got questions?`}
               <br />
-              We've got answers
+              {`We've got answers`}
             </h2>
             <div className="flex gap-x-2 overflow-scroll [&::-webkit-scrollbar]:hidden">
               <button className={`inline-flex items-center justify-center whitespace-nowrap rounded-full text-base font-bold leading-normal transition-all ease-in-out duration-200 border  hover:border-[#017848] hover:shadow-[0_0_0_4px_inset] hover:text-[#017848] h-12 px-6 py-3 w-auto ${selectCategory === "Ourproduct" ? 'border-[#017848] text-[#017848] shadow-[0_0_0_4px_inset]' : 'border-[#3a3a3a]'}`}
@@ -362,7 +362,7 @@ export default function Home() {
                     <div className="w-full md:w-[calc(100%-285px)] flex flex-col gap-6 text-[#073126]">
                       <h4 class="font-bold leading-heading m-0 p-0 w-auto md:text-2xl text-xl md:tracking-normal tracking-normal  lg:text-xl">Affordability calculator</h4>
                       <p class="hidden flex-1 md:flex-none text-sm text-backgroundInversePrimary md:block">
-                        Got homeownership dreams? Let's put some numbers behind them. Our affordability calculator estimates the maximum home you can afford.
+                        {`Got homeownership dreams? Let's put some numbers behind them. Our affordability calculator estimates the maximum home you can afford.`}
                       </p>
                       <div className="rounded-full flex justify-center items-center border border-[#333] w-12 h-12 group hover:border-none hover:bg-[#073126]">
                         <IoMdArrowForward size={18} className="group-hover:text-white text-[#073126]" />
@@ -494,7 +494,7 @@ export default function Home() {
                     <div className="w-full md:w-[calc(100%-285px)] flex flex-col gap-6 text-[#073126]">
                       <h4 class="font-bold leading-heading m-0 p-0 w-auto md:text-2xl text-xl md:tracking-normal tracking-normal  lg:text-xl">Timeline for homebuying process</h4>
                       <p class="hidden flex-1 md:flex-none text-sm text-backgroundInversePrimary md:block">
-                        Does the process of buying a home seem daunting? Don't stress, we broke it down into 8 easy steps.
+                        {`Does the process of buying a home seem daunting? Don't stress, we broke it down into 8 easy steps.`}
                       </p>
                       <div className='w-full flex justify-between items-end'>
                         <div className="rounded-full flex justify-center items-center border border-[#333] w-12 h-12 group hover:border-none hover:bg-[#073126]">
